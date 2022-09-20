@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(8, 138, 138);
+}
+
+header h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid rgb(252, 114, 137);
+}
+
+.card {
+  border: 5px solid rgb(252, 114, 137);
+  line-height: 1;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.card h3 {
+  font-size: 2.2rem;
+}
+.card p {
+  font-size: 1.2rem;
+}
+.card img {
+  height: 200px;
+  max-width: 90%;
+}
+
+.btn {
+  width: 90%;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 550px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+  .card h3 {
+    font-size: 1.5rem;
+  }
+  .card p {
+    font-size: 1rem;
+  }
+  .card img {
+    height: 100px;
+  }
+  .btn {
+    font-size: 1rem;
+    width: 98%;
+  }
+}
+.predictor {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid rgb(252, 114, 137);
+  background-color: black;
+}
+.predictor label {
+  font-size: 1.4rem;
+  color: white;
+}
+.predictor .btn {
+  font-size: 1.4rem;
+}
+
+.predict-winner {
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+table {
+  background-color: white;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.2rem;
+}
+
+.leaderboard {
+  border: 5px solid rgb(252, 114, 137);
+  background-color: white;
+}
+.leaderboard .leaderboard h2 {
+  color: black;
+}
+
